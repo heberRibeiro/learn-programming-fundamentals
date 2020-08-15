@@ -2,6 +2,7 @@ package main;
 
 import java.util.ArrayList;
 
+import chalenge06.BiggestWord;
 import challenge01.QueenAndTheMonk;
 import challenge02.SequenceOne;
 import challenge03.HandlingTextOne;
@@ -63,6 +64,15 @@ public class Main {
 
 		Fibonacci fibonacci = new Fibonacci();
 		System.out.println(fibonacci.fibonacciSequence(10));
+
+		// Challenge 06 - Biggest Word
+		System.out.println("=================================");
+		System.out.println("Challenge 06 - Biggest Word");
+		System.out.println("=================================");
+		
+		BiggestWord biggestWord = new BiggestWord();
+		
+		System.out.println("Maior palavra = " + biggestWord.calcBiggestWord(phrase));
 
 	}
 
