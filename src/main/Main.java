@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import challenge01.QueenAndTheMonk;
 import challenge02.SequenceOne;
+import challenge03.HandlingTextOne;
 
 public class Main {
 
@@ -34,6 +35,16 @@ public class Main {
 		SequenceOne sequenceOne = new SequenceOne();
 		
 		System.out.println(sequenceOne.calc(5));
+		
+		// Challenge 03 - Handling Text I
+		System.out.println("=================================");
+		System.out.println("Challenge 03 - Handling Text I");
+		System.out.println("=================================");
+		
+		HandlingTextOne handlingTextOne = new HandlingTextOne();
+		String phrase = "Just any sentence to count the number of letters A";
+		System.out.println(handlingTextOne.calculateLetterA(phrase));
+		
 
 	}
 
