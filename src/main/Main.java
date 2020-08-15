@@ -6,6 +6,7 @@ import challenge01.QueenAndTheMonk;
 import challenge02.SequenceOne;
 import challenge03.HandlingTextOne;
 import challenge04.HandlingTextTwo;
+import challenge05.Fibonacci;
 
 public class Main {
 
@@ -54,6 +55,14 @@ public class Main {
 		HandlingTextTwo handlingTextTwo = new HandlingTextTwo();
 		String phraseTwo = "Just any sentence to count the number of words";
 		System.out.println(handlingTextTwo.calculateNumberOfWord(phraseTwo.trim()));
+
+		// Challenge 05 - Fibonacci
+		System.out.println("=================================");
+		System.out.println("Challenge 05 - Fibonacci");
+		System.out.println("=================================");
+
+		Fibonacci fibonacci = new Fibonacci();
+		System.out.println(fibonacci.fibonacciSequence(10));
 
 	}
 
