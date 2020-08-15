@@ -8,6 +8,7 @@ import challenge02.SequenceOne;
 import challenge03.HandlingTextOne;
 import challenge04.HandlingTextTwo;
 import challenge05.Fibonacci;
+import challenge07.SequenceOfNumbers;
 
 public class Main {
 
@@ -69,11 +70,18 @@ public class Main {
 		System.out.println("=================================");
 		System.out.println("Challenge 06 - Biggest Word");
 		System.out.println("=================================");
-		
+
 		BiggestWord biggestWord = new BiggestWord();
-		
+
 		System.out.println("Maior palavra = " + biggestWord.calcBiggestWord(phrase));
 
+		// Challenge 07 - Factorial
+		System.out.println("=================================");
+		System.out.println("Challenge 07 - Factorial");
+		System.out.println("=================================");
+
+		SequenceOfNumbers sequenceOfNumbers = new SequenceOfNumbers();
+		System.out.println(sequenceOfNumbers.calc(10.0));
 	}
 
 }
