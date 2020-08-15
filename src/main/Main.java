@@ -3,6 +3,7 @@ package main;
 import java.util.ArrayList;
 
 import challenge01.QueenAndTheMonk;
+import challenge02.SequenceOne;
 
 public class Main {
 
@@ -14,9 +15,6 @@ public class Main {
 		ArrayList<Double> grainsQuantity = queenAndTheMonk.calcQnt();
 		ArrayList<Double> grainsSum = queenAndTheMonk.calcSum();
 
-		// System.out.println(queenAndTheMonk.calcQnt());
-		// System.out.println(queenAndTheMonk.calcSum());
-
 		System.out.println("=================================");
 		System.out.println("Challenge 01 - Queen and the monk");
 		System.out.println("=================================");
@@ -27,6 +25,15 @@ public class Main {
 					"Casa: " + casa + " - " + "Qtd: " + grainsQuantity.get(i) + " - " + "Soma: " + grainsSum.get(i));
 
 		}
+		
+		// Challenge 02 - Sequence I
+		System.out.println("=================================");
+		System.out.println("Challenge 02 - Sequence I");
+		System.out.println("=================================");
+		
+		SequenceOne sequenceOne = new SequenceOne();
+		
+		System.out.println(sequenceOne.calc(5));
 
 	}
 
