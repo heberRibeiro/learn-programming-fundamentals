@@ -9,6 +9,7 @@ import challenge03.HandlingTextOne;
 import challenge04.HandlingTextTwo;
 import challenge05.Fibonacci;
 import challenge07.SequenceOfNumbers;
+import challenge08.SecondDegreeEquation;
 
 public class Main {
 
@@ -82,6 +83,14 @@ public class Main {
 
 		SequenceOfNumbers sequenceOfNumbers = new SequenceOfNumbers();
 		System.out.println(sequenceOfNumbers.calc(10.0));
+
+		// Challenge 08 - Second Degree Equation
+		System.out.println("=================================");
+		System.out.println("Challenge 08 - Second Degree Equation");
+		System.out.println("=================================");
+		
+		SecondDegreeEquation secondDegreeEquation = new SecondDegreeEquation();
+		System.out.println(secondDegreeEquation.calc(1, -5, 4));
 	}
 
 }
